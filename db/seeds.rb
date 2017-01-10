@@ -10,3 +10,4 @@ Song.create!(title: "World on Fire", artist: "The Royal Concept", playlist: part
 Song.create!(title: "Set it Off", artist: "Girl Talk", playlist: party)
 Song.create!(title: "Love is all I got", artist: "Feed Me", playlist: party)
 Song.create!(title: "Crooks in the Kitchen", artist: "Adam K", playlist: party)
+

@@ -1,0 +1,11 @@
+class PlaylistsController < ApplicationController
+
+  def index
+    @playlists = Playlist.all
+  end
+
+  def show
+    @playlist = Playlist.find_by(id: params[:id])
+    @song = Song.new(playlist: @playlist)
+  end
+end

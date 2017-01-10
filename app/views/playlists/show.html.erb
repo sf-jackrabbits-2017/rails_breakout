@@ -1,0 +1,7 @@
+<h1><%= @playlist.name %></h1>
+
+<ul>
+<%= render partial: "songs/song", collection: @playlist.songs %>
+</ul>
+
+<%= render partial: "songs/form", locals: {playlist: @playlist, song: @song}%>

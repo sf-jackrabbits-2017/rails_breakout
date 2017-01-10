@@ -1,0 +1,5 @@
+<%= form_for([playlist, song], remote:true, html: {class: "red"}) do |f| %>
+  <%= f.text_field :title, placeholder: "title" %>
+  <%= f.text_field :artist, placeholder: "artist" %>
+  <%= f.submit %>
+<% end %>
